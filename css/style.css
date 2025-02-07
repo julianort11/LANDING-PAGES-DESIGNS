@@ -1,1 +1,52 @@
 @import url(/css/variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.main{
+    padding: 50px;
+}
+.div_text {
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 610px;
+    height: 355px;
+    text-align: center;
+    gap: 12px;
+}
+.div_text h1{
+    font-size: 64px;
+    font-family: "Avenir-Heavy";
+    color: var(--color-2);
+}
+.div_text p{
+    font-size: 26px;
+    font-family: "Avenir-Roman";
+    margin-top: 24px;
+    color: var(--color-1);
+}
+.div_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-2);
+    border-radius: 16px;
+    width: 130px;
+    height: 41px;
+}
+.div_button a{
+    font-family: "Avenir-Roman";
+    text-decoration: none;
+    color: var(--color-3);
+    font-size: 13px;
+}
