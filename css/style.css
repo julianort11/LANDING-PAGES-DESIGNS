@@ -17,3 +17,31 @@ header h1{
     font-family: "Avenir-Heavy";
     color: var(--color-2);
 }
+.section__container{
+    /* background: green; */
+    display: flex;
+    padding: 64px;
+}
+.article__container{
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 64px;
+
+}
+.article__container h3{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-3);
+}
+.article__container p{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-4);
+}
+.article__container img{
+    height: 334px;
+    width: 348px;
+
+}
