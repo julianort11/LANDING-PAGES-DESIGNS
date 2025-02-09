@@ -1,1 +1,19 @@
 @import url(/css/variables.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /* background: red; */
+    display: flex;
+    width: 645px;
+    height: 255px;
+    padding-top: 64px;
+    padding-left: 64px;
+}
+header h1{
+    font-size: 88px;
+    font-family: "Avenir-Heavy";
+    color: var(--color-2);
+}
