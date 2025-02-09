@@ -20,15 +20,16 @@ header{
     gap: 24px;
 
     h1{
-        font-family: "avenir-heavy";
+        font-family: "Avenir-heavy";
         font-size: 56px;
     }
     p{
-        font-family: "avenir-heavy";
-        font-size: 26px;
+        font-family: "Avenir-roman";
+        font-size: 27px;
+        color: var(--font-color-1);
     }
     .div__button{
-    background: blue;
+    background: var(--font-color-1);
     border-radius: 20px;
     width: 110px;
     height: 35px;
@@ -38,8 +39,8 @@ header{
     }
     .div__button a{
         text-decoration: none;
-        /* color: ; */
-        font-family: "";
+        color: var(--font-color-2);
+        font-family: "Avenir-roman";
         font-size: 16px;
         display: flex;
         justify-content: center;
@@ -83,8 +84,9 @@ main{
     flex-direction: column;
  }
 .div__main span{
-    font-family: "";
-    font-size: 25px;
+    font-family: "Avanir-heavy";
+    font-size: 35px;
+    color: var(--font-color-3);
 }
 .div__main img{
     display: flex;
