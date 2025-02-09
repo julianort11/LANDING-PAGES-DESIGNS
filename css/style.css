@@ -63,6 +63,32 @@ header{
     top: -65px;
 }
 #img__header-dos{
-    top: 217px;
+    top: 64px;
 }
-
+/************main*****************/
+main{
+    /* background: pink; */
+    padding-left: 110px;
+    margin: 17px
+}
+.section__main{
+   /* background: red; */
+    display: flex;
+}
+ .div__main{
+    /* background: turquoise; */
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+ }
+.div__main span{
+    font-family: "";
+    font-size: 25px;
+}
+.div__main img{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    align-self: center;
+}
