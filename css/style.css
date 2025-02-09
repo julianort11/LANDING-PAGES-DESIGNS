@@ -11,29 +11,61 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 200px);
     grid-template-areas: "img header" 
+                         "img header" 
                          "img aside" 
-                         "img aside" 
-                         "footer footer";
+                         "footer aside";
 }
 header{
+    background: yellow;
+    display: flex;
     grid-area: header;
     width: 550px;
-    height: 350px;
-    gap: 50px;
-    margin: 60px 0 0 60px;
+    height: 415px;
+    gap: 32px;
+    flex-direction: column;
+    padding-top: 80px;
+
 }
 header h1{
     font-family: "Avenir-Heavy";
     font-size: 50px;
-    /* color: var(--color--1); */
+    color: var(--color-1);
 }
-header p{
+header span{
     font-family: "Avenir-Roman";
-    font-size: 22px;
-    /* color: var(--color--1); */
+    font-size: 28px;
+    color: var(--color-2);
 }
 .div_button{
     display: flex;
+    background: var(--color-1);
+    width: 158px;
+    height: 54px;
+    border-radius: 17px;
+    justify-content: center;
+}
+.div_button a{
+    font-family: "Avenir-Roman";
+    font-size: 20px;
+    color: var(--color-3);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.section__img{
     background: red;
-    width: 100px;
+    grid-area: img;
+}
+.section__img img{
+    width: 100%;
+    height: 100%;
+    padding-top: 67px;
+}
+.aside__text{
+    background: blue;
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
 }

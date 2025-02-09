@@ -1,5 +1,7 @@
 :root{
-    -color--1: #fff
+    --color-1: #252525;
+    --color-2: #c5b6b6b8;
+    --color-3: #FFF;
 }
 @font-face {
     font-family: "Avenir-Heavy";
