@@ -6,6 +6,11 @@
 }
 .div__img{
     background: red;
-    width: 656px;
-    height: 861.5px;
+    padding-left: 64px;
+    width: 650px;
+    display: flex;
+}
+.div__img img{
+    width: 568px;
+    
 }
