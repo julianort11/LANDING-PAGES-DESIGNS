@@ -6,11 +6,36 @@
 }
 .div__tittle{
     background-color: aqua;
-    width: 833px;
+    width: 933px;
     height: 176px;
-    padding: 64px;
+    margin: 64px;
 }
 .div__tittle h1{
-    font-size: 72px;
+    font-size: 70px;
     font-family: "Avenir-Heavy";
+}
+/******main*****/
+.div__container {
+    background: red;
+    padding: 20px;
+    display: flex;
+
+}
+.div__text {
+    background: yellow;
+    padding: 20px;
+}
+.div__text h2{
+}
+.div__text p{
+}
+.div__text-img {
+    background: green;
+    /* padding: 20px; */
+}
+.div__text-img img{
+}
+.div__text-img span{
+}
+.div__text-img p{
 }
