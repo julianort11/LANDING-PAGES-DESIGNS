@@ -5,11 +5,11 @@
     box-sizing: border-box;
 }
 header{
-    background: turquoise;
+    /* background: turquoise; */
     padding: 64px;
 }
 .div__logo {
-    background: red;
+    /* background: red; */
     width: 130px;
     height: 101.04px;
     justify-content: center;
@@ -18,7 +18,7 @@ header{
 .div__logo img {
 }
 .div__title {
-    background: green;
+    /* background: green; */
     display: flex;
     width: 629px;
     height: 350px;
@@ -33,17 +33,43 @@ header{
 .div__title p {
     font-size: 21px;
     font-family: "WorkSans-Regular";
+    color: var(--color-2);
 }
 .div__buttons{
-    background: yellow;
+    /* background: yellow; */
     display: flex;
     gap: 32px;
+    width: 500px;
+    height: 66px;
 }
 .div__button1 {
-    background: blue;
-}
-.div__button2 {
-    background: purple;
+    display: flex;
+    background: var(--color-3);
+    width: 219px;
+    height: 66px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
 }
 .div__button1 a {
+    color: var(--color-1);
+    font-size: 24px;
+    font-family: "WorkSans-Medium";
+    text-decoration: none;
+}
+.div__button2 {
+    display: flex;
+    background: var(--color-1);
+    width: 254px;
+    height: 66px;
+    border: 1px solid var(--color-3);
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.div__button2 a {
+    color: var(--color-3);
+    font-size: 24px;
+    font-family: "WorkSans-Medium";
+    text-decoration: none;
 }

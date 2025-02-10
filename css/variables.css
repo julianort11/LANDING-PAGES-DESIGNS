@@ -1,5 +1,7 @@
 :root{
-    -color--1: #fff
+    --color-1: #fff;
+    --color-2: #333333;
+    --color-3: #050505;
 }
 @font-face {
     font-family: "PlayfairDisplay-Bold";
@@ -8,4 +10,8 @@
 @font-face {
     font-family: "WorkSans-Regular";
     src: url(../storage/font/fonts/font/worksans/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/fonts/font/worksans/WorkSans-Medium.ttf);
 }
