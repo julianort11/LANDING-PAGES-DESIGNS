@@ -1,1 +1,49 @@
 @import url(/css/variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: turquoise;
+    padding: 64px;
+}
+.div__logo {
+    background: red;
+    width: 130px;
+    height: 101.04px;
+    justify-content: center;
+    align-items: center;
+}
+.div__logo img {
+}
+.div__title {
+    background: green;
+    display: flex;
+    width: 629px;
+    height: 350px;
+    padding: 35px;
+    gap: 32px;
+    flex-direction: column;
+}
+.div__title h1 {
+    font-family: "PlayfairDisplay-Bold";
+    font-size: 43px;
+}
+.div__title p {
+    font-size: 21px;
+    font-family: "WorkSans-Regular";
+}
+.div__buttons{
+    background: yellow;
+    display: flex;
+    gap: 32px;
+}
+.div__button1 {
+    background: blue;
+}
+.div__button2 {
+    background: purple;
+}
+.div__button1 a {
+}

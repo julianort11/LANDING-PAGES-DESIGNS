@@ -2,6 +2,10 @@
     -color--1: #fff
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "PlayfairDisplay-Bold";
+    src: url(../storage/font/fonts/font/Playfair_Display/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url(../storage/font/fonts/font/worksans/WorkSans-Regular.ttf);
 }
