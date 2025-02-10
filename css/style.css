@@ -4,13 +4,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+.section__text{
+    background: var(--color-font);
+}
+.div__all{
+    display: flex;
+    justify-content: space-around;
+}
 .div__img{
-    background: red;
+    /* background: blue; */
+    padding-top: 50px;
     padding-left: 64px;
     width: 650px;
     display: flex;
 }
 .div__img img{
     width: 568px;
-    
+}
+.div__text {
+    /* background: green; */
+    width: 487px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    gap: 40px;
+}
+
+.div__text h1{
+    font-size: 88px;
+    font-family: "WorkSans-Bold";
+    color: var(--color-1);
+}
+.div__text p{
+    font-size: 24px;
+    font-family: "WorkSans-Light";
+    color: var(--color-1);
+}
+.div__button {
+    background: var(--color-button);
+    width: 231px;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 36px;
+}
+.div__button a{
+    text-decoration: none;
+    font-family: "WorkSans-Medium";
+    font-size: 32px;
+    color: var(--color-2);
+
 }

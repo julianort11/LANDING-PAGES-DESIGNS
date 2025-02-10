@@ -1,7 +1,19 @@
 :root{
-    -color--1: #fff
+    --color-font: #AB2706;
+    --color-1: #fff;
+    --color-2: #080808;
+    --color-button: #E5B94B;
+
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "WorkSans-Bold";
+    src: url(../storage/font/fonts/fonts/worksans/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Light";
+    src: url(../storage/font/fonts/fonts/worksans/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/fonts/fonts/worksans/WorkSans-Medium.ttf);
 }
