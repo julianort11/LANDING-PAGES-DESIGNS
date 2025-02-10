@@ -1,1 +1,16 @@
 @import url(/css/variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div__tittle{
+    background-color: aqua;
+    width: 833px;
+    height: 176px;
+    padding: 64px;
+}
+.div__tittle h1{
+    font-size: 72px;
+    font-family: "Avenir-Heavy";
+}
