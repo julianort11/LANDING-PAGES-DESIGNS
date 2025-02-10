@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 .div__tittle{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 933px;
     height: 176px;
-    margin: 64px;
+    margin: 20px;
 }
 .div__tittle h1{
     font-size: 70px;
@@ -16,26 +16,31 @@
 }
 /******main*****/
 .div__container {
-    background: red;
-    padding: 20px;
+    /* background: red; */
+    /* padding: 20px; */
     display: flex;
 
 }
 .div__text {
-    background: yellow;
-    padding: 20px;
+    /* background: yellow; */
+    height: 564px;
+    margin: 20px;
 }
 .div__text h2{
+    font-family: "Avenir-Heavy";
+    font-size: 40px;
+    color: var(--color-1);
 }
 .div__text p{
+    font-size: 24px;
+    font-family: "Avenir-Roman";
+    color: var(--color-3);
 }
 .div__text-img {
-    background: green;
-    /* padding: 20px; */
+    /* background: green; */
+    /* padding-top: 20px; */
 }
 .div__text-img img{
-}
-.div__text-img span{
-}
-.div__text-img p{
+    width: 316px;
+    height: 402px;
 }
