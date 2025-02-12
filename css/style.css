@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .section__imgs {
-    background: red;
+    /* background: red; */
     width: 1210px;
     height: 866.88px;
     top: 91px;
@@ -90,4 +90,60 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 18px;
+}
+
+.section__ilustrations {
+    border-radius: 24px;
+}
+.img__1 {
+    position: absolute;
+    width: 316px;
+    height: 436px;
+    top: 524px;
+    left: 338px;
+    border-radius: 24px;  
+    z-index: -1;  
+}
+.img__2 {
+    position: absolute;
+    width: 316px;
+    height: 436px;
+    top: 282px;
+    left: 692px;
+    border-radius: 24px;      
+    z-index: -1; 
+}
+.img__3 {
+    position: absolute;
+    width: 316px;
+    height: 436px;
+    top: 67px;
+    left: 1041px;
+    border-radius: 24px;    
+    z-index: -1;
+}
+
+.section__card{
+    position: absolute;
+    display: flex;
+    width: 668;
+    height: 122;
+    top: 838px;
+    left: 708px;
+    gap: 24px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+}
+.section__card img {
+    width: 80;
+    height: 80;
+}
+.section__card p {
+    width: 516;
+    height: 90;
+    font-family: "Avenir-Roman";
+    font-weight: 400;
+    font-size: 22px;
 }
