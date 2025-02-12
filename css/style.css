@@ -8,15 +8,15 @@ main{
     display: flex;
 }
 .section__izqui {
-    background: red;
+    /* background: red; */
     display: flex;
 }
 .article__izqui {
-    background: blue;
+    /* background: blue; */
     /* padding: 20px; */
 }
 .div__text {
-    background: yellow;
+    /* background: yellow; */
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -49,7 +49,7 @@ main{
     font-family: "Poppins-Regular";
 }
 .div__img-izq {
-    background: pink;
+    /* background: pink; */
     display: flex;
     justify-content: space-between;
     width: 373.69px;
@@ -67,7 +67,7 @@ main{
 /**********central***********/
 .section_central {
     display: flex;
-    background: aqua;
+    /* background: aqua; */
 }
 .img__central {
     display: flex;
@@ -81,20 +81,46 @@ main{
 /************derecha******************/
 .section__derech {
     display: flex;
-    background: red;
+    /* background: red; */
 }
 .article__dch {
     display: flex;
-    background: green;
+    /* background: green; */
+    flex-direction: column;
 }
 .div__text-dch {
     display: flex;
     flex-direction: column;
-    background: yellow;
-    padding: 20px;
+    /* background: yellow; */
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+    gap: 40px;
+}
+.div__text-dch h1{
+    font-family: "Times-Regular";
+    font-size: 64px;
+    font-weight:200;
+}
+.div__text-dch p{
+    font-size: 24px;
+    font-family: "Times-Regular";
+    font-weight: 200;
 }
 .div__img-dch {
     display: flex;
-    background: pink;
+    justify-content: space-between;
+    /* background: pink; */
+    width: 392px;
+    height: 421px;
+}
+.div__img-dch .img__3{
+    width: 184px;
+    height: 316px;
+}
+.div__img-dch .img__4{
+    width: 184px;
+    height: 316px;
+    margin-top: 105px;
 }
 
