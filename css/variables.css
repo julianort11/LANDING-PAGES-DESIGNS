@@ -1,7 +1,20 @@
 :root{
-    -color--1: #fff
+    --color-1: #ffffff;
+    --color-2: hsla(0, 0%, 15%, 0.45);
+    --color-3: hsla(0, 0%, 15%, 0.8);
+    --color-4: #252525;
+    
+}
+
+@font-face {
+    font-family: "Times-Regular";
+    src: url(../storage/fonts/fonts/times/Typography\ Times\ Regular.ttf);
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "Poppins-Regular";
+    src: url(../storage/fonts/fonts/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Times-Bold";
+    src: url(../storage/fonts/fonts/times/Typography\ Times\ Bold.ttf);
 }

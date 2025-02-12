@@ -1,1 +1,43 @@
 @import url(/css/variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+    height: 1024px;
+
+}
+
+.img__1 {
+    position: absolute;
+    width: 255px;
+    height: 320px;
+    top: 237px;
+    left: 311px;
+    border-width: 1.74px;
+}
+.img__2 {
+    position: absolute;
+    width: 191px;
+    height: 242px;
+    top: 535px;
+    left: 921px;
+    border-width: 1.74px;
+}
+.img__3 {
+    position: absolute;
+    width: 174px;
+    height: 173px;
+    top: 647px;
+    left: 1135px;
+}
+.img__4 {
+    position: absolute;
+    width: 179px;
+    height: 176px;
+    top: 256.04px;
+    left: 293.46px;
+    rotate: -101.78 
+}
