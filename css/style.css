@@ -59,3 +59,11 @@ span:nth-last-child(1) {
     line-height: 18px;
     
 }
+.section__img {
+    position: relative;
+    width: 742px;
+    height: 792px;
+    top: 67px;
+    left: 634px;
+    gap: 18px;
+}
