@@ -4,3 +4,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+.section__imgs {
+    width: 1210px;
+    height: 866.88px;
+    top: 91px;
+    left: 142px;
+}
+.section__imgs .spiral{
+    position: absolute;
+    width: 133px;
+    height: 283.88px;
+    top: 674px;
+    left: 142px;
+    border-width: 3.35px;
+}
+.section__imgs .dawn-1 {
+    position: absolute; 
+    width: 248;
+    height: 248;
+    top: 388px;
+    left: 596px;
+    border-width: 4px;
+
+}
+.section__imgs .dawn-2 {
+    position: absolute;
+    width: 257;
+    height: 257;
+    top: 541px;
+    left: 1095px;
+    border-width: 3px;      
+}
+.section__imgs .lines {
+    position: absolute;
+    width: 355;
+    height: 126;
+    top: 91px;
+    left: 498px;
+    gap: 36px;
+}
