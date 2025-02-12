@@ -38,8 +38,8 @@ body {
     width: 179px;
     height: 176px;
     top: 256.04px;
-    left: 293.46px;
-    rotate: -101.78 
+    left: 57.46px;
+    rotate: -101.78px 
 }
 .section__card-1 { 
     /* background-color: aqua; */
@@ -85,4 +85,66 @@ body {
     font-family: "Times-Regular";
     font-size: 24px;
     color: var(--color-3);
+}
+.section__text {
+    position: absolute;
+    top: 250px;
+    left: 384px;
+    text-align: center;
+}
+.section__text img {
+    z-index: -2;
+    position: absolute;
+    left: -60px;
+    top: -236px
+}
+.section__text h1 {
+    width: 651px;
+    height: 270px;
+    font-family: "Times-Regular";
+    font-weight: 400;
+    font-size: 77px;
+    text-align: center;
+    color: var(--color-4);
+}
+.section__text p {
+    width: 497px;
+    height: 162px;
+    padding-left: 154px;
+    font-family: "Times-Regular";
+    font-size: 24px;
+    text-align: center;
+    color: var(--color-3);
+}
+.section__text button {
+    width: 182;
+    height: 66;
+    gap: 10px;
+    border-radius: 36px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    border: none;
+    background: var(--color-4);
+    font-family: Poppins;
+    font-size: 24px;
+    color: var(--color-1);
+}
+
+.img__prin-1 {
+    z-index: -1;
+    position: absolute;
+    width: 412px;
+    height: 528px;
+    top: 432px;
+    left: 64px;
+}
+.img__prin-2 {
+    z-index: -1;
+    position: absolute;
+    width: 412px;
+    height: 528px;
+    top: 64px;
+    left: 964px;
 }
