@@ -1,7 +1,25 @@
 :root{
-    -color--1: #fff
+    --color-1: #ffffff;
+    --color-2: #252525;
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Black";
+    src: url(../storage/fonts/fonts/avenir/AvenirLTStd-Black.otf);
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
-}
+    font-family: "Poppins-Regular";
+    src: url(../storage/fonts/fonts/poppins/Poppins-Regular.ttf);
+ }
+ @font-face {
+    font-family: "AvenirLTStd-Heavy";
+    src: url(../storage/fonts/fonts/avenir/AvenirLTStd-Heavy.otf);
+ }
+ @font-face {
+    font-family: "AvenirLTStd-Roman";
+    src: url(../storage/fonts/fonts/avenir/AvenirLTStd-Roman.otf);
+ }
+ @font-face {
+    font-family: "AvenirLTStd-Book";
+    src: url(../storage/fonts/fonts/avenir/AvenirLTStd-Book.otf);
+ }
