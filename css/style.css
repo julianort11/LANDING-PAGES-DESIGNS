@@ -41,3 +41,48 @@ body {
     left: 293.46px;
     rotate: -101.78 
 }
+.section__card-1 { 
+    /* background-color: aqua; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 99px;
+    left: 64px;
+    gap: 8px;
+}
+
+.p__number-1 {
+    width: 434px;
+    height: 32px;
+    font-family: "Times-Bold";
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-2);
+}
+.p__text-1 {
+    width: 482px;
+    height: 64px;
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-3);
+}
+.section__card-2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 812px;
+    left: 883px;
+    gap: 8px;
+}
+.p__number-2 {
+    width: 434px;
+    font-family: "Times-Bold";
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-2);
+}
+.p__text-2 {
+    font-family: "Times-Regular";
+    font-size: 24px;
+    color: var(--color-3);
+}
