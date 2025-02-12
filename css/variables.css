@@ -1,7 +1,7 @@
 :root{
     --color-1: #ffffff;
     --color-2: #49342F;
-    --button: #FFDE81;
+    --color-3: #FFDE81;
 }
 
 @font-face {
@@ -15,4 +15,8 @@
 @font-face {
     font-family: "Poppins-Regular";
     src: url(../storage/fonts/fonts/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../storage/fonts/fonts/poppins/Poppins-SemiBold.ttf);
 }
