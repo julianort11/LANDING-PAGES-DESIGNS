@@ -1,1 +1,16 @@
 @import url(/css/variables.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .section__izqui {
+}
+.article__izqui {
+}
+.dic__text {
+}
+.div__button {
+}
+.div__img {
+}
