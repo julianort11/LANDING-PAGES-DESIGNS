@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 .section__imgs {
+    background: red;
     width: 1210px;
     height: 866.88px;
     top: 91px;
@@ -42,4 +43,51 @@
     top: 91px;
     left: 498px;
     gap: 36px;
+}
+.section__text {
+    display: flex;
+    position: absolute;
+    width: 637px;
+    height: 477px;
+    top: 64px;
+    left: 64px;
+    gap: 24px;
+    flex-direction: column;
+}
+.section__text h1 {
+    font-family: "Avenir-Heavy";
+    width: 637px;
+    height: 264px;
+    display: grid;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0%;
+}
+.section__text p {
+    width: 519px;
+    height: 99px;
+    font-family: "Avenir-Roman";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.78px;
+    letter-spacing: 0%;
+
+}
+.section__text button {
+    background-color: var(--color-2);
+    color: var(--color-1);
+    width: 182px;
+    height: 66px;
+    gap: 10px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    border-radius: 36px;
+    border: none;
+    font-family: "Popins-Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
 }
