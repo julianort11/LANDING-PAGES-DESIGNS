@@ -1,7 +1,17 @@
 :root{
-    -color--1: #fff
+    --color-1: #ffffff;
+    --bottonColor: #252525;
+    --colorTitle1: #FEC3C7;
+    --colorTitle2: #9AD7F3;
+    --colorTitle3: #6BDFDA;
 }
+
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "Poppins-Bold";
+    src: url(../storage/fonts/fonts/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/fonts/fonts/poppins/Poppins-Regular.ttf);
 }
