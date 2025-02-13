@@ -1,1 +1,73 @@
 @import url(/css/variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background: background linear-gradient(172.29deg, #09212C 15.72%, #043E49 68.5%);
+    width: 1440px;
+    height: 1024px;
+}
+
+h1 {
+    color: var(--color-1);
+}
+p {
+    color: var(--color-1);
+}
+
+.img__bac {
+    background-image: url(../storage/img/AI\ image\ -\ OpenAI.png) ;
+    width: 1024px;
+    height: 1024px;
+    left: 416px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.section__card {
+    position: absolute;
+    display: flex;
+    width: 1312px;
+    height: 171px;
+    top: 791px;
+    left: 64px;
+    gap: 92px;
+    border-radius: 32px;
+    padding-top: 24px;
+    padding-right: 56px;
+    padding-bottom: 24px;
+    padding-left: 56px;
+    border-width: 1px;
+
+    border: 1px solid;
+    backdrop-filter: blur(8px)
+}
+.div__card-1 img {
+    width: 24px;
+    height: 24px;
+}
+.div__card-1 h1 {
+    width: 82px;
+    height: 33px;
+
+    font-family: Avenir;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32.78px;
+    letter-spacing: 0%;
+}
+.div__card-1 p {
+    width: 231px;
+    height: 50px;
+
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: 0%;
+}
