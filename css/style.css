@@ -1,1 +1,67 @@
 @import url(/css/variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div__foother {
+    background: red;
+    display: flex;
+    padding: 20px;
+}
+.div__imgizq {
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    height: 323.69px;
+    gap: 73px;
+    align-items: center;
+}
+.div__imgizq .img_1 {
+    width: 355px;
+    height: 68px;
+}
+.div__imgizq .img_2 {
+    width: 172px;
+}
+.div__text {
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+.div__text h1{
+    font-family: 'Times New Roman', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 72px;
+}
+.div__text p{
+    font-family: 'Times New Roman','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 26px;
+}
+.div__button {
+    background: var(--color-1);
+    width: 121px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+.div__button a{
+    text-decoration: none;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: var(--color-2);
+}
+.div__imgch {
+    /* background: violet; */
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    height: 323.69px;
+    gap: 73px;
+    align-items: center;
+}

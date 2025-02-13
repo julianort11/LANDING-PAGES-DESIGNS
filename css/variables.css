@@ -1,7 +1,8 @@
 :root{
-    -color--1: #fff
+    --color-1: #252525;
+    --color-2: #FFFFFF;
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "Poppins-Regular";
+    src: url(../storage/fonts/fonts/poppins/Poppins-Regular.ttf);
 }
