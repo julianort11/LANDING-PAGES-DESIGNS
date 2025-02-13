@@ -1,4 +1,4 @@
-@import url(/css/variables.css);
+@import url(variables.css);
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ p {
     left: 416px;
     position: absolute;
     background-repeat: no-repeat;
-    z-index: -1;
+    z-index: -2;
 }
 
 .section__card {
@@ -69,5 +69,71 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 24.59px;
+    letter-spacing: 0%;
+}
+.section__text {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 724px;
+    height: 518px;
+    top: 193px;
+    left: 64px;
+    gap: 8px;
+    border-radius: 24px;
+    padding-top: 40px;
+    padding-right: 56px;
+    padding-bottom: 40px;
+    padding-left: 56px;
+
+    background: linear-gradient(124.42deg, rgba(0, 0, 0, 0.36) 5.12%, rgba(0, 0, 0, 0.0675) 102.99%);
+    backdrop-filter: blur(8px)
+}
+.div__texImg {
+    width: 612px;
+    height: 184px;
+}
+.div__texImg img {
+    width: 80px;
+    height: 16px;
+}
+.div__texImg h1 {
+    width: 612;
+    height: 144;
+
+    font-family: Avenir;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 0%;
+}
+.section__text p {
+    width: 586;
+    height: 108;
+
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35.52px;
+    letter-spacing: 0%;
+}
+.section__text button {
+    width: 182px;
+    height: 66px;
+    gap: 10px;
+    border-radius: 36px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+
+    box-shadow: 0px 0px 20px 0px #63E1E140;
+    background: #63E1E1;
+    border: none;
+
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
     letter-spacing: 0%;
 }
